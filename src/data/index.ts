@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
       icon: University.src,
     },
     info: {
-      companyName: "HaNoi University of science and technology",
+      companyName: "HaNoi University of Science and Technology",
       companySite: "https://hust.edu.vn",
       role: "Student",
     },

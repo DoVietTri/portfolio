@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="sm:container sm:mx-auto px-4">
       <div className="border-t border-t-slate-600 pt-14 pb-10">
-        <h3 className="text-center mb-10 text-4xl">Follow Me</h3>
+        <h3 className="text-center mb-10 text-4xl font-bold">Follow Me</h3>
         <div className="flex justify-center mb-10 gap-5">
           {socialNetworks.map((social) => (
             <Link

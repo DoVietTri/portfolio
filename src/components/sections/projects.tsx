@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Projects = () => {
   return (
     <section id="projects" className="w-full my-6">
-      <h3 className="text-center text-4xl">Projects Portfolio</h3>
+      <h3 className="text-center text-4xl font-bold">Projects Portfolio</h3>
       <div className="my-10 border-b border-b-slate-600" />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {projects.map((project) => (
