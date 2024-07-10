@@ -9,6 +9,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 interface TimelineElementProps extends VerticalTimelineElementProps {
+  key?: string;
   children?: React.ReactNode;
 }
 
@@ -21,7 +22,7 @@ export const TimelineElement: React.FC<TimelineElementProps> = ({
   });
 
   return (
-    <div ref={ref} className="vertical-timeline-element">
+    <div ref={ref} className="vertical-timeline-element" key={props.key}>
       <VerticalTimelineElement {...props} visible={inView}>
         {children}
       </VerticalTimelineElement>

@@ -16,9 +16,6 @@ export const Header: React.FC = () => {
           </Link>
         </div>
         <div className="hidden sm:flex items-center gap-4 text-2xl">
-          <Link href="#projects" className="hover:text-indigo-500 duration-300">
-            Projects
-          </Link>
           <Link href="#about" className="hover:text-indigo-500 duration-300">
             About Me
           </Link>
@@ -27,6 +24,9 @@ export const Header: React.FC = () => {
             className="hover:text-indigo-500 duration-300"
           >
             Experiences
+          </Link>
+          <Link href="#projects" className="hover:text-indigo-500 duration-300">
+            Projects
           </Link>
         </div>
         <div className="hidden sm:flex items-center">

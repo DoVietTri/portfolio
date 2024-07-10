@@ -9,6 +9,22 @@ import Beanfun from "@/assets/images/projects/beanfun.png";
 import LeadMarketing from "@/assets/images/projects/lead-marketing.png";
 import TokenStand from "@/assets/images/projects/tokenstand.png";
 
+// Technologies
+import CSS from "@/assets/images/technologies/css.png";
+import Docker from "@/assets/images/technologies/docker.png";
+import Figma from "@/assets/images/technologies/figma.png";
+import Git from "@/assets/images/technologies/git.png";
+import HTML from "@/assets/images/technologies/html.png";
+import Javascript from "@/assets/images/technologies/javascript.png";
+import Mongodb from "@/assets/images/technologies/mongodb.png";
+import Nextjs from "@/assets/images/technologies/nextjs.webp";
+import Nodejs from "@/assets/images/technologies/nodejs.png";
+import Reactjs from "@/assets/images/technologies/reactjs.png";
+import Redux from "@/assets/images/technologies/redux.png";
+import Tailwind from "@/assets/images/technologies/tailwind.png";
+import Typescript from "@/assets/images/technologies/typescript.png";
+import Vuejs from "@/assets/images/technologies/vuejs.png";
+
 // Socials
 import Github from "@/assets/images/socials/github.svg";
 import Internet from "@/assets/images/socials/internet.svg";
@@ -91,30 +107,35 @@ export const techs: Tech[] = [
     title: "NextJS",
     bgColor: "#171717",
     link: "https://nextjs.org/",
+    icon: Nextjs,
   },
   {
     type: TechEnum.VUE_JS,
     title: "VueJS",
     bgColor: "-webkit-linear-gradient(315deg,#42d392 25%,#647eff)",
     link: "https://vuejs.org/",
+    icon: Vuejs,
   },
   {
     type: TechEnum.REACT_JS,
     title: "ReactJS",
     bgColor: "rgb(88 196 220 / 1)",
     link: "https://react.dev/",
+    icon: Reactjs,
   },
   {
     type: TechEnum.JAVASCRIPT,
     title: "Javascript",
     bgColor: "rgb(88 196 220 / 1)",
     link: "https://devdocs.io/javascript/",
+    icon: Javascript,
   },
   {
     type: TechEnum.TYPESCRIPT,
     title: "Typescript",
     bgColor: "#3178c6",
     link: "https://www.typescriptlang.org/",
+    icon: Typescript,
   },
   {
     type: TechEnum.JOTAI,

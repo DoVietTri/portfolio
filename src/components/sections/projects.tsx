@@ -3,9 +3,9 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../3d-card";
 import Image from "next/image";
 
-export const Projects = () => {
+export const Projects: React.FC = () => {
   return (
-    <section id="projects" className="w-full my-6">
+    <section id="projects" className="w-full my-20">
       <h3 className="text-center text-4xl font-bold">Projects Portfolio</h3>
       <div className="my-10 border-b border-b-slate-600" />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">

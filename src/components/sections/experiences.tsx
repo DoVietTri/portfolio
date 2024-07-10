@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export const Experiences: React.FC = () => {
   return (
-    <section id="experiences" className="w-full my-6">
+    <section id="experiences" className="w-full my-20">
       <h3 className="text-center text-4xl font-bold">Experiences</h3>
       <div className="my-10 border-b border-b-slate-600" />
       <div className="">

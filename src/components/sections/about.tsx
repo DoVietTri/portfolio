@@ -5,7 +5,7 @@ import Avatar from "@/assets/images/avatar.jpg";
 
 export const About: React.FC = () => {
   return (
-    <section id="#about" className="w-full my-6">
+    <section id="about" className="w-full my-20">
       <h3 className="text-center text-4xl font-bold">About Me</h3>
       <div className="my-10 border-b border-b-slate-600" />
       <div className="w-full flex flex-col md:flex-row gap-5">

@@ -22,6 +22,7 @@ export interface Tech {
   title: string;
   bgColor: string;
   link?: string;
+  icon?: StaticImageData;
 }
 
 export interface Project {
